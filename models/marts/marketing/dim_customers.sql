@@ -2,7 +2,7 @@ with customer_orders as (
     select * from {{ ref('customer_orders') }}
 ),
 customers as (
-    select * from {{ ref("stg_jaffle_shop__customers") }}
+    select * from {{ ref('stg_jaffle_shop__customers') }}
 )
 
 select 
