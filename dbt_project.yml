@@ -39,5 +39,6 @@ models:
   jaffle_project:
     marts:
       materialized: table
+      
     staging:
       materialized: view
